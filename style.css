@@ -29,3 +29,15 @@ nav a:active {
 h1 {
   color:blue;
 }
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
