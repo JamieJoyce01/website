@@ -6,9 +6,9 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-
-  background-image: url(./images/oogway.webp);
+  background-image: url(./images/KX.jpg);
   background-size: cover;
+  background-attachment: scroll;
 }
 
 nav {
