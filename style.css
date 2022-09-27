@@ -4,48 +4,49 @@ html {
 
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  background-image: url(./images/KX.jpg);
-  background-size: cover;
-  background-attachment: scroll;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(./images/KX.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 nav {
-  overflow:hidden;
-  background-color: rgba(0, 0, 0, 0.5);
-  align-items: center;
+    overflow:hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
 }
 nav a {
-  color: rgb(200, 200, 200);
-  text-decoration: none;
-  font-size: 17px;
-  padding: 20px;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-size: 17px;
+    padding: 20px;
 
 }
 nav ul {
-  list-style: none;
-  text-align: center;
+    list-style: none;
+    text-align: center;
 }
 
 nav ul li {
-  display: inline-block;
+    display: inline-block;
 }
 nav a:hover {
-  color: white;
+    color: white;
 }
 
 nav a:active {
-  background-color: white;
-  color: black;
+    color: black;
 }
 
 h1 {
-  color:white;
+    color:black;
 }
 hr {
-  margin-left: 10px;
-  margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 footer {
